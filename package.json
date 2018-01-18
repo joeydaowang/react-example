@@ -4,6 +4,7 @@
   "description": "Simple React example app",
   "main": "index.js",
   "scripts": {
+	"install": "webpack --env.prod",
     "dev": "webpack-dev-server --inline --content-base ./ --env.dev",
     "build": "webpack --env.prod",
     "lint": "eslint app test",
